@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+.navbar {
+    width: 33%;
+    height: 93vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.navbar button {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    position: relative;
+}
+.navbar a {
+    display: block;
+    background-color: blue;
+    height: 50px;
+}
+.navbar a:hover {
+    background-color: lightblue;
+}
+.navbar #navList {
+    color: wheat;
+}
+.navbar .login {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.sectionContainer {
+    text-align: center;
+    border: black solid 1px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
