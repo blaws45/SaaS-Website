@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brand</title>
+    <link rel="stylesheet" href="style/base.css">
+    <script>
+        let isOpen = true;
+        function openNavBar() {
+            document.getElementById("navList").style.opacity = +!isOpen;
+            isOpen = !isOpen;
+        }
+    </script>
+</head>
+<body>
+<div id="navBar" class="navbar">
+    <button id="navBtn" onclick="openNavBar()">Open Bar</button>
+    <ul id="navList">
+        <li><a>Home</a></li>
+        <li><a>Subscriptions</a></li>
+        <li><a>Login</a></li>
+        <li><a>Signup</a></li>
+        <li><a>Logout</a></li>
+    </ul>
+</div>
+<div class="sectionContainer">
+    <h1>Brand Picture</h1>
+</div>
+
+<div class="sectionContainer">
+    <h1>About Us</h1>
+    <p>This is a paragraph about us! This is a paragraph about us! This is a paragraph about us! This is a paragraph about us! This is a paragraph about us! This is a paragraph about us! This is a paragraph about us! </p>
+    <button>Get Started</button>
+</div>
+</body>
+</html>
